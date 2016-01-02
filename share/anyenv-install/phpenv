@@ -1,2 +1,7 @@
-install_env "https://github.com/laprasdrum/phpenv.git" "master"
+install_env "https://github.com/phpenv/phpenv.git" "master"
 install_plugin "php-build" "https://github.com/CHH/php-build.git" "master"
+
+# install_plugin "phpenv-composer" "git@github.com:ryoakg/phpenv-composer.git" "master"
+# pushd $(phpenv root)
+# ln -s ../plugins/phpenv-composer/libexec/composer bin
+# popd
